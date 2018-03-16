@@ -27,7 +27,7 @@ var volhistory = [];
 // A boolean that tells stuff to spawn after the ocean is completely drawn.
 var startSpawners;
 var TrashCounter = 0;
-const TRASHSUBTRACTER = 3;
+var TRASHSUBTRACTER = 3;
 var aintOver = true;
 var endCounter = 0;
 var stupidVar = false;
