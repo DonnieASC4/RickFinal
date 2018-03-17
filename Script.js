@@ -46,7 +46,7 @@ var totalMoveUpDist = 200;
 
 
 function pause() {
-    $("body").append("<h1 class='unPause'>It is paused</h1>");
+    $(".container").append("<h1 class='unPause'>It is paused</h1>");
 }
 
 function unPause() {
@@ -64,8 +64,10 @@ function preload() {
 function setup() {
     // Sets the size of the canvas to 600 by 600. Don't change this size yet because the
     // whole code is revolved around this size. I need to make a formula to make it better.
-    createCanvas(600, 600);
+    var Sketch = createCanvas(600, 600);
+    Sketch.parent('sketch');
     button = createButton('pause');
+    button.parent('Clicker');
     button.mousePressed(toggleSong);
     song.play();
 

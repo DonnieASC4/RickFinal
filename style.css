@@ -3,7 +3,16 @@ html, body {
 }
 
 body {
-  margin: 0;
+    background-color: grey;
+    
+}
+
+
+
+
+
+ #sketch {
+  margin 0;
   display: flex;
 
   /* This centers our sketch horizontally. */
@@ -12,3 +21,26 @@ body {
   /* This centers our sketch vertically. */
   align-items: center;
 }
+
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 80px
+    
+}
+
+.unPause {
+    text-align: center;
+    
+}
+
+
+#Clicker {
+    float:left
+    width: 53px;
+}
+
