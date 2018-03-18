@@ -1,9 +1,7 @@
-html, body {
-  height: 100%;
-}
+
 
 body {
-    background-color: grey;
+    background-color: black;
     overflow: auto;
     display: block;
     
@@ -13,17 +11,157 @@ body {
     display: block;
 }
 
+header {
+    padding: 0px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    justify-content: center;
+    border: 10px solid red;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    margin-bottom: 20px
+   
+}
+
+
+
+nav {
+    width: 100%;
+}
+
+nav li {
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color:forestgreen;
+    
+}
+
+.navBar {
+    display: inline-block;
+    width: 32.5%;
+    text-align: center;
+}
+
+#lastBar {
+    display: inline-block;
+    width: 32.5%;
+    margin-right: 0px;
+    text-align: center;
+}
+
+nav a {
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    
+}
+
+@media only screen and (max-width: 1080px)  {
+    nav {
+        visibility: hidden;
+    }
+    #lastBar {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .navBar {
+        display: inline-block;
+        width: 32.8%;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+}
+
+
+
+
+/*For about full screens*/
+
+
+    .RickPicture {
+        display: inline-block;
+        position: relative;
+        left: 200px;
+        margin-top: 30px;
+        border: 3px solid red;
+    }
+    
+    .gameDescription {
+        font-size: 22px; 
+        text-align: center;
+        border: 3px solid red;
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        width: 500px;
+        margin-top: 30px;
+        margin-right: 200px;
+        color: white;
+        background-color: seagreen;
+        padding-top: 80px;
+        padding-bottom: 148px;
+    }
+    
+
+
+
+/*For Smaller Screens*/
+
+@media only screen and (max-width: 1460px)  {
+    .RickPicture {
+        border: 3px solid red;
+        left: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        
+    }
+    
+    .gameDescription {
+        position: relative;
+        font-size: 22px; 
+        text-align: center;
+        border: 3px solid red;
+        display: block;
+        width: 500px;
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        background-color: seagreen;
+        padding-top: 80px;
+        padding-bottom: 148px;
+        margin-bottom: 30px;
+    }
+
+}
+
 
 
  #sketch {
-  margin 0;
+  margin-top: 100px;
   display: flex;
 
   /* This centers our sketch horizontally. */
   justify-content: center;
 
   /* This centers our sketch vertically. */
-  /*align-items: center;*/
+  align-items: center;
 }
 
 
@@ -38,12 +176,52 @@ body {
 
 .unPause {
     text-align: center;
+    color: white;
     
 }
 
 
 #Clicker {
-    float:left
+    float:left;
     width: 53px;
+    background-color: seagreen;
+    color: white;
 }
+
+.Back li {
+    display: inline-block;
+}
+
+.Note {
+    padding-right: 20px;
+    margin-right: 0px;
+    color: white;
+}
+
+.GO {
+    height: 30px;
+}
+
+footer {
+    color: white;
+    margin-bottom: 40px;
+}
+
+
+
+@media only screen and (min-width: 600px)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

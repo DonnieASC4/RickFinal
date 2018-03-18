@@ -216,7 +216,7 @@ function endGame() {
     $("body").append("<h1 class='unPause'>The song stopped. Game Over.</h1>");
 }
 function keyPressed() {
-    if (keyCode === UP_ARROW && !moveDown) {
+    if (keyCode === 87 && !moveDown) {
         moveUp = true;
         followSong = false;
     }
