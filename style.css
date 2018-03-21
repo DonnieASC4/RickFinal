@@ -82,13 +82,17 @@ nav a {
     
 }
 
-
+.bigWords {
+    font-weight: bold;
+    font-size: 35px;
+}
 
 
 /*For about full screens*/
 
 
     .RickPicture {
+        border-radius: 20px;
         width: 480px;
         height: 415.3px;
         display: inline-block;
@@ -99,6 +103,7 @@ nav a {
     }
     
     .gameDescription {
+        border-radius: 20px;
         font-size: 22px; 
         text-align: center;
         border: 3px solid red;
@@ -196,23 +201,40 @@ nav a {
     color: white;
 }
 
-.Back li {
-    display: inline-block;
+.Back {
+    width: 450px;
+    padding-right: 20px;
 }
 
 .Note {
-    padding-right: 20px;
+    float: left;
+    display:inline-block;
+    padding-right: 0px;
     margin-right: 0px;
+    margin-top: 20px;
+    
     color: white;
+    background-color: forestgreen;
+    border: 3px solid red;
+    
 }
 
 .GO {
-    height: 30px;
+   color: white;
+    background-color: forestgreen;
+    display:inline-block;
+    height: 50px;
+    width: 50px;
+    border: 3px solid red;
+    text-align: center;
 }
 
 footer {
+    position: absolute;
     color: white;
-    margin-bottom: 100px;
+    margin-top: 30px;
+    margin-bottom: 140px;
+    
 }
 
 
